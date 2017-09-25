@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="4tP-43-2M2" customClass="LandingPageButtonView" customModule="spyfall" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="359" height="70"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Ed-It-0cN">
+                    <rect key="frame" x="0.0" y="0.0" width="359" height="70"/>
+                    <color key="backgroundColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="tec-Ha-YSC">
+                    <rect key="frame" x="71.5" y="15" width="40" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="40" id="YRG-ly-1Lp"/>
+                        <constraint firstAttribute="height" constant="40" id="Z8F-kn-ryL"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="create game" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xtS-ht-N3m">
+                    <rect key="frame" x="131.5" y="24.5" width="96" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="3Ed-It-0cN" firstAttribute="leading" secondItem="aZ6-d6-Lxp" secondAttribute="leading" id="BDy-Ez-bW0"/>
+                <constraint firstItem="xtS-ht-N3m" firstAttribute="centerX" secondItem="3Ed-It-0cN" secondAttribute="centerX" id="I7B-Af-Slr"/>
+                <constraint firstItem="xtS-ht-N3m" firstAttribute="leading" secondItem="tec-Ha-YSC" secondAttribute="trailing" constant="20" id="Zc8-0i-uni"/>
+                <constraint firstItem="tec-Ha-YSC" firstAttribute="centerY" secondItem="3Ed-It-0cN" secondAttribute="centerY" id="fQ5-I4-LOf"/>
+                <constraint firstAttribute="trailing" secondItem="3Ed-It-0cN" secondAttribute="trailing" id="m0t-Tg-6w6"/>
+                <constraint firstItem="xtS-ht-N3m" firstAttribute="centerY" secondItem="3Ed-It-0cN" secondAttribute="centerY" id="m7Q-dw-q00"/>
+                <constraint firstAttribute="bottom" secondItem="3Ed-It-0cN" secondAttribute="bottom" id="nET-Gy-2WV"/>
+                <constraint firstItem="3Ed-It-0cN" firstAttribute="top" secondItem="aZ6-d6-Lxp" secondAttribute="top" id="y7l-Yz-aZV"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="aZ6-d6-Lxp"/>
+            <connections>
+                <outlet property="ButtonImageView" destination="tec-Ha-YSC" id="AMo-SV-69u"/>
+                <outlet property="LandingPageButton" destination="3Ed-It-0cN" id="TpE-Tj-Nsm"/>
+            </connections>
+            <point key="canvasLocation" x="145.5" y="-401"/>
+        </view>
+    </objects>
+</document>

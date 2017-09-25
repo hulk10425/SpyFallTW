@@ -1,0 +1,360 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BEEADA821F78DAFC0065432D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEADA811F78DAFC0065432D /* AppDelegate.swift */; };
+		BEEADA841F78DAFC0065432D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEADA831F78DAFC0065432D /* ViewController.swift */; };
+		BEEADA871F78DAFC0065432D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEEADA851F78DAFC0065432D /* Main.storyboard */; };
+		BEEADA8A1F78DAFC0065432D /* spyfall.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BEEADA881F78DAFC0065432D /* spyfall.xcdatamodeld */; };
+		BEEADA8C1F78DAFC0065432D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEEADA8B1F78DAFC0065432D /* Assets.xcassets */; };
+		BEEADA8F1F78DAFC0065432D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEEADA8D1F78DAFC0065432D /* LaunchScreen.storyboard */; };
+		BEEADA9C1F78E54D0065432D /* LandingPageButtonView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEEADA9B1F78E54D0065432D /* LandingPageButtonView.xib */; };
+		BEEADA9E1F78E97A0065432D /* LandingPageButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEADA9D1F78E97A0065432D /* LandingPageButtonView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BEEADA7E1F78DAFC0065432D /* spyfall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = spyfall.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEEADA811F78DAFC0065432D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BEEADA831F78DAFC0065432D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BEEADA861F78DAFC0065432D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BEEADA891F78DAFC0065432D /* spyfall.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = spyfall.xcdatamodel; sourceTree = "<group>"; };
+		BEEADA8B1F78DAFC0065432D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BEEADA8E1F78DAFC0065432D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BEEADA901F78DAFC0065432D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEEADA9B1F78E54D0065432D /* LandingPageButtonView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LandingPageButtonView.xib; sourceTree = "<group>"; };
+		BEEADA9D1F78E97A0065432D /* LandingPageButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingPageButtonView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BEEADA7B1F78DAFC0065432D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BEEADA751F78DAFC0065432D = {
+			isa = PBXGroup;
+			children = (
+				BEEADA801F78DAFC0065432D /* spyfall */,
+				BEEADA7F1F78DAFC0065432D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BEEADA7F1F78DAFC0065432D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BEEADA7E1F78DAFC0065432D /* spyfall.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BEEADA801F78DAFC0065432D /* spyfall */ = {
+			isa = PBXGroup;
+			children = (
+				BEEADA961F78DFF40065432D /* View */,
+				BEEADA811F78DAFC0065432D /* AppDelegate.swift */,
+				BEEADA831F78DAFC0065432D /* ViewController.swift */,
+				BEEADA851F78DAFC0065432D /* Main.storyboard */,
+				BEEADA8B1F78DAFC0065432D /* Assets.xcassets */,
+				BEEADA8D1F78DAFC0065432D /* LaunchScreen.storyboard */,
+				BEEADA901F78DAFC0065432D /* Info.plist */,
+				BEEADA881F78DAFC0065432D /* spyfall.xcdatamodeld */,
+			);
+			path = spyfall;
+			sourceTree = "<group>";
+		};
+		BEEADA961F78DFF40065432D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BEEADA9B1F78E54D0065432D /* LandingPageButtonView.xib */,
+				BEEADA9D1F78E97A0065432D /* LandingPageButtonView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BEEADA7D1F78DAFC0065432D /* spyfall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEEADA931F78DAFC0065432D /* Build configuration list for PBXNativeTarget "spyfall" */;
+			buildPhases = (
+				BEEADA7A1F78DAFC0065432D /* Sources */,
+				BEEADA7B1F78DAFC0065432D /* Frameworks */,
+				BEEADA7C1F78DAFC0065432D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = spyfall;
+			productName = spyfall;
+			productReference = BEEADA7E1F78DAFC0065432D /* spyfall.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BEEADA761F78DAFC0065432D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = hulk;
+				TargetAttributes = {
+					BEEADA7D1F78DAFC0065432D = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BEEADA791F78DAFC0065432D /* Build configuration list for PBXProject "spyfall" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BEEADA751F78DAFC0065432D;
+			productRefGroup = BEEADA7F1F78DAFC0065432D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BEEADA7D1F78DAFC0065432D /* spyfall */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BEEADA7C1F78DAFC0065432D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEEADA9C1F78E54D0065432D /* LandingPageButtonView.xib in Resources */,
+				BEEADA8F1F78DAFC0065432D /* LaunchScreen.storyboard in Resources */,
+				BEEADA8C1F78DAFC0065432D /* Assets.xcassets in Resources */,
+				BEEADA871F78DAFC0065432D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BEEADA7A1F78DAFC0065432D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEEADA841F78DAFC0065432D /* ViewController.swift in Sources */,
+				BEEADA8A1F78DAFC0065432D /* spyfall.xcdatamodeld in Sources */,
+				BEEADA821F78DAFC0065432D /* AppDelegate.swift in Sources */,
+				BEEADA9E1F78E97A0065432D /* LandingPageButtonView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BEEADA851F78DAFC0065432D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEEADA861F78DAFC0065432D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BEEADA8D1F78DAFC0065432D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEEADA8E1F78DAFC0065432D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BEEADA911F78DAFC0065432D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BEEADA921F78DAFC0065432D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BEEADA941F78DAFC0065432D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TF66DCXK88;
+				INFOPLIST_FILE = spyfall/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hulk10425.spyfall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BEEADA951F78DAFC0065432D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TF66DCXK88;
+				INFOPLIST_FILE = spyfall/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hulk10425.spyfall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BEEADA791F78DAFC0065432D /* Build configuration list for PBXProject "spyfall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEEADA911F78DAFC0065432D /* Debug */,
+				BEEADA921F78DAFC0065432D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEEADA931F78DAFC0065432D /* Build configuration list for PBXNativeTarget "spyfall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEEADA941F78DAFC0065432D /* Debug */,
+				BEEADA951F78DAFC0065432D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BEEADA881F78DAFC0065432D /* spyfall.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BEEADA891F78DAFC0065432D /* spyfall.xcdatamodel */,
+			);
+			currentVersion = BEEADA891F78DAFC0065432D /* spyfall.xcdatamodel */;
+			path = spyfall.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BEEADA761F78DAFC0065432D /* Project object */;
+}
